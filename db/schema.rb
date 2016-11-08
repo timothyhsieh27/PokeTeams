@@ -25,7 +25,6 @@ ActiveRecord::Schema.define(version: 20161107201636) do
   end
 
   create_table "teams", force: :cascade do |t|
-    t.integer  "trainer_id", null: false
     t.string   "squad_name", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
